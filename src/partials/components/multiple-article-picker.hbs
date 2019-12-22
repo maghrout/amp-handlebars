@@ -1,0 +1,34 @@
+<div class="multiple-article-picker" data-component="multiple-article-picker"
+  data-ga-category="component - multiple article picker">
+  <h2 class="multiple-article-picker__title">
+    {{{ heading }}}
+  </h2>
+  <p class="multiple-article-picker__supporting-copy">
+    {{{ supportingCopy }}}
+  </p>
+
+  <amp-carousel class="multiple-article-picker__list" width="450" height="0" layout="responsive" type="carousel">
+    {{#each articles}}
+    <article class="multiple-article-picker__article" data-multiple-article-picker-slide data-slide-index="{{@index}}">
+      <div class="multiple-article-picker__image-wrapper">
+        <amp-img src="{{{ articleImage }}}" alt="{{{ articleImageAltText }}}" width="{{{../itemWidth}}}" height="{{{imageHeight}}}"
+          layout="responsive">
+        </amp-img>
+      </div>
+      <h3 class="multiple-article-picker__article-heading">
+        {{{ articleTitle }}}
+      </h3>
+      <div class="multiple-article-picker__article-text">
+        <p>
+          <span>{{{ articleCopy }}}</span>
+        </p>
+      </div>
+      <a href="https://www.hillarys.co.uk/{{{ articleLink }}}source={{{ ../source }}}"
+        class="multiple-article-picker__article-link" data-ga-action="{{increment @index}}"
+        data-ga-label="Inspiration for all blind types">
+        <span class="multiple-article-picker__hidden-for-seo">{{{articleLinkSeoCopy}}}</span>
+      </a>
+    </article>
+    {{/each}}
+  </amp-carousel>
+</div>

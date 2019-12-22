@@ -1,0 +1,79 @@
+.gallery-grid {
+padding: 24px 16px;
+}
+
+.gallery-grid__heading {
+color: #2e2c2c;
+line-height: 1.4;
+letter-spacing: 0;
+font-family: Klim-Semibold,Georgia,Times New Roman,serif;
+font-size: 24px;
+font-weight: 700;
+text-transform: none;
+margin-bottom: 8px;
+}
+
+.gallery-grid__subtext {
+margin-top: 0;
+margin-bottom: 24px;
+color: #686058;
+font-family: ProximaNovaAlt, Arial, "sans-serif";
+font-size: 20px;
+font-weight: 500;
+line-height: 1.6;
+}
+
+.gallery-grid__masonry {
+display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+margin: -0.5em;
+overflow: hidden;
+}
+
+.gallery-grid__item {
+position: relative;
+width: 50%;
+padding: 0.5em;
+border-radius: 6px;
+overflow: hidden;
+}
+
+.gallery-grid__item-body {
+position: absolute;
+top: 0;
+left: 0;
+color: transparent;
+font: 0/0 serif;
+text-shadow: none;
+}
+
+.gallery-grid__button-icon {
+position: absolute;
+right: 16px;
+bottom: 16px;
+width: 30px;
+height: 30px;
+background-color: rgba(46, 44, 44, .8);
+border-radius: 50%;
+}
+
+.gallery-grid__button-icon::before,
+.gallery-grid__button-icon::after {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+background-color: #fff;
+transform: translate(-50%, -50%);
+}
+
+.gallery-grid__button-icon::before {
+width: 2px;
+height: 12px;
+}
+
+.gallery-grid__button-icon::after {
+width: 12px;
+height: 2px;
+}

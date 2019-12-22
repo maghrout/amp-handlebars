@@ -1,0 +1,23 @@
+<div class="social-feed">
+  <div class="social-feed__inner">
+    <h2 class="social-feed__heading">{{{ title }}}</h2>
+    <p class="social-feed__sub-text">{{{ copy }}}</p>
+
+    <a href="{{{ instagramLink }}}" target="_blank" rel="ugc"
+      title="Go to Hillarys Instagram profile">
+      {{>components/instagram-icon}}
+    </a>
+    <amp-carousel width="410" height="410" layout="responsive" type="slides" class="social-feed__carousel">
+      {{#each carouselImages}}
+        <div>
+          <amp-img
+            src="{{{ this }}}"
+            width="410" height="410" layout="responsive" class="social-feed__card" lightbox="social"></amp-img>
+          <span class="social-feed__button-icon"></span>
+        </div>
+      {{/each}}
+    </amp-carousel>
+
+    <a href="{{{ ctaLink }}}" class="social-feed__cta">{{{ ctaText }}}</a>
+  </div>
+</div>

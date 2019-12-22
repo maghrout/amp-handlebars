@@ -1,0 +1,33 @@
+    <nav
+      class="breadcrumb breadcrumb--inner breadcrumb--small-vertical-spacing"
+    >
+      <ul
+        class="breadcrumb__list"
+        itemscope=""
+        itemtype="https://schema.org/BreadcrumbList"
+      >
+        {{#itemdata}}
+          <li
+            class="breadcrumb__item "
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="https://schema.org/ListItem"
+          >
+
+            {{#if finalItem}}
+              <span itemprop="name">{{{itemCopy}}}</span>
+            {{else}}
+              <a
+                href="https://www.hillarys.co.uk/{{{ itemLink }}}source={{{ ../source }}}"
+                class="breadcrumb__link"
+                itemprop="item"
+              >
+                <span itemprop="name">{{{itemCopy}}}</span>
+              </a>
+            {{/if}}
+            <meta itemprop="position" content="{{increment @index}}" />
+          </li>
+        {{/itemdata}}
+
+      </ul>
+    </nav>

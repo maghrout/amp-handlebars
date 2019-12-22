@@ -1,0 +1,32 @@
+.hero-block__content {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background-color: var(--heroBlockBackground);
+      }
+      .hero-block__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .hero-block__sale {
+        max-width: 250px;
+        max-height: 250px;
+        margin-bottom: 8px;
+      }
+      .hero-block__cta {
+        position: relative;
+        padding: 10px 24px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 2px;
+        color: #fff;
+        font-family: ProximaNovaAlt, Arial, "sans-serif";
+        font-size: 0.8em;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.25;
+        letter-spacing: 1px;
+      }

@@ -1,0 +1,15 @@
+    <section class="gallery-grid">
+      <h2 class="gallery-grid__heading">{{{heading}}}</h2>
+      <p class="gallery-grid__subtext">{{{subtext}}}</p>
+        {{!-- max-height so masonry effect stays consistent, sometimes will lose some items from the grid on certain breakpoints --}}
+        <div class="gallery-grid__masonry" style="max-height: {{{maxGridHeight}}}px;">
+          {{#itemData}}
+            <div class="gallery-grid__item">
+              {{!-- itemWidth will be set once for all items and height is used to calculate right aspect ratio, they match the live values --}}
+              <amp-img class="fabric-style-viewer__fabric" alt="{{{itemAlt}}}" src="{{{itemLink}}}" width="{{{../itemWidth}}}" height="{{{height}}}" layout="responsive" lightbox="shutters"></amp-img>
+              <p class="gallery-grid__item-body">{{{itemCopy}}}</p>
+              <span class="gallery-grid__button-icon"></span>
+            </div>
+          {{/itemData}}
+        </div>
+    </section>

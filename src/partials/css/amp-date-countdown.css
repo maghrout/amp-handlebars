@@ -1,0 +1,40 @@
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: var(--bannerCountdownBackground);
+  color: var(--bannerCountdownForeground);
+  font-weight: 700;
+}
+
+.countdown.countdown--expired {
+  display: none;
+}
+
+.countdown__heading,
+.countdown__date {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.countdown__heading {
+  text-align: center;
+}
+
+.countdown__date--hours {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.countdown__date--mins {
+  margin-right: 6px;
+}
+
+.countdown__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+.single-video {
+      padding: 24px 16px;
+    }
+
+    .single-video__wrapper {
+      margin-bottom: 24px;
+    }
+
+    .single-video__heading {
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: #2e2c2c;
+      font-family: Klim-Semibold, Georgia, Times New Roman, serif;
+      font-size: 1.5em;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .single-video__text {
+      margin-top: 0;
+      margin-bottom: 0;
+    }

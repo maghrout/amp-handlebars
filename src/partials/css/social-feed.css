@@ -1,0 +1,115 @@
+.social-feed {
+background-color: #f4f4f3;
+max-width: 1240px;
+margin: 24px auto;
+padding: 24px;
+text-align: center;
+color: #000000;
+}
+
+.social-feed__inner {
+position: relative;
+margin: 0 auto;
+max-width: 980px;
+}
+
+.social-feed__instagram-icon {
+width: 18px;
+height: 18px;
+fill: #686058;
+margin-bottom: 24px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.social-feed__heading {
+font-family: Klim-Semibold, Georgia, Times New Roman, serif;
+}
+
+.social-feed__carousel {
+border-radius: 5px;
+}
+
+.social-feed .amp-carousel-button-next {
+height: 45px;
+outline: none;
+width: 45px;
+background-color: #2e2c2c;
+border: 0;
+border-radius: 50%;
+color: transparent;
+line-height: 0;
+padding: 0;
+-webkit-transition: background-color .3s ease-in-out,opacity .3s ease-in-out;
+transition: background-color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.social-feed .amp-carousel-button-prev {
+height: 45px;
+outline: none;
+width: 45px;
+background-color: #2e2c2c;
+border: 0;
+border-radius: 50%;
+color: transparent;
+line-height: 0;
+padding: 0;
+-webkit-transition: background-color .3s ease-in-out,opacity .3s ease-in-out;
+transition: background-color .3s ease-in-out,opacity .3s ease-in-out;
+}
+
+.social-feed__button-icon {
+position: absolute;
+right: 16px;
+bottom: 16px;
+width: 30px;
+height: 30px;
+background-color: rgba(46, 44, 44, .8);
+border-radius: 50%;
+}
+
+.social-feed__button-icon::before,
+.social-feed__button-icon::after {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+background-color: #fff;
+transform: translate(-50%, -50%);
+}
+
+.social-feed__button-icon::before {
+width: 2px;
+height: 12px;
+}
+
+.social-feed__button-icon::after {
+width: 12px;
+height: 2px;
+}
+
+.social-feed__cta {
+line-height: 1.25;
+letter-spacing: 1px;
+font-family: ProximaNovaAlt,Arial,"sans-serif";
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 10px 24px;
+background-color: transparent;
+border: 2px solid #b3afab;
+border-radius: 2px;
+color: #686058;
+display: inline-block;
+text-align: center;
+-webkit-transition: none;
+transition: none;
+margin-top: 24px;
+width: 100%;
+}
+
+.social-feed__cta:hover {
+border: 2px solid #686058;
+color: #686058;
+background: transparent;
+}

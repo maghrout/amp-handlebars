@@ -1,0 +1,23 @@
+{{#if hasImageOverride}}
+<section style="background-color:{{{ backgroundColor }}}">
+  <div class="animated-banner-strip__image-wrapper">
+    <amp-img src="{{{ image }}}" height="240" width="480" layout="responsive" alt="{{{imageAlt}}}"></amp-img>
+  </div>
+</section>
+{{else}}
+<section class="animated-banner-strip" style="background-color: {{{ backgroundColor }}};">
+  <div class="animated-banner-strip__inner animated-banner-strip__inner--tight">
+    <p class="animated-banner-strip__copy animated-banner-strip__copy--primary">{{{copyPrimary}}}</p>
+
+    <div class="animated-banner-strip__animation-wrapper">
+      {{#copyAnimation}}
+      <p class="animated-banner-strip__copy animated-banner-strip__copy--animation-{{increment @index}}">
+        {{{copyAnimation}}}</p>
+      {{/copyAnimation}}
+    </div>
+    {{#if hasCopyExtra}}
+    <p class="animated-banner-strip__copy animated-banner-strip__copy--extra">{{{copyExtra}}}</p>
+    {{/if}}
+  </div>
+</section>
+{{/if}}

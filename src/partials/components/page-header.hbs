@@ -1,0 +1,23 @@
+<section class="page-header" style="color: {{{ backgroundColor }}}">
+  <div class="page-header__inner">
+    <div class="page-header__image-wrapper" style="background-color: {{{ backgroundColor }}};">
+        <amp-img alt="{{{imageAlt}}}" width="450" height="450" layout="responsive" src="{{{ image }}}"></amp-img>
+    </div>
+
+    <div class="page-header__content-wrapper" style="background-color: {{{ backgroundColor }}};">
+      <div class="page-header__content-position">
+        <div class="page-header__content">
+          <h1 class="page-header__content-title">{{{ heading }}}</h1>
+          <p class="page-header__content-body">{{{ copy }}}</p>
+            {{#if hasRounderImage}}
+              <div class="page-header__roundel-wrapper">
+                <div class="page-header__roundel-inner-wrapper">
+                  <amp-img alt="{{{ roundelImageAlt }}}" width="120" height="120" layout="responsive" src="{{{ roundelImage }}}"></amp-img>
+                </div>
+              </div>
+            {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

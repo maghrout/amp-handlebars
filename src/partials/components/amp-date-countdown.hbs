@@ -1,0 +1,29 @@
+{{#if showCountdown}}
+<amp-date-countdown class="countdown {{hideIfCountdownExpired endDate}}" id="ampdate" end-date="{{{endDate}}}" when-ended="stop" layout="fixed-height" height="69" locale='en'>
+  <template type="amp-mustache">
+    <p class="countdown__heading">{{{countdownHeading}}}</p>
+    <div class="countdown__inner">
+      <p class="countdown__date countdown__date--days">
+        <span class="countdown__number">\{{d}}</span>
+        <span class="countdown__text">{{{countdownTextDays}}}</span>
+      </p>
+
+      <p class="countdown__date countdown__date--hours">
+        <span class="countdown__number">\{{hh}}</span>
+        <span class="countdown__text">{{{countdownTextHours}}}</span>
+      </p>
+
+      <p class="countdown__date countdown__date--mins">
+        <span class="countdown__number">\{{mm}}</span>
+        <span class="countdown__text">{{{countdownTextMins}}}</span>
+      </p>
+
+      <p class="countdown__date countdown__date--sec">
+        <span class="countdown__number">\{{ss}}</span>
+        <span class="countdown__text">{{{countdownTextSecs}}}</span>
+      </p>
+    </div>
+  </template>
+</amp-date-countdown>
+
+{{/if}}

@@ -1,0 +1,652 @@
+<amp-sidebar class="menu" id="navMenu" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <p class="menu__header-copy">Menu</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <ul class="menu__list">
+    <li class="menu__item">
+      <a href="https://www.hillarys.co.uk/?source={{{source}}}" class="menu__link">Home</a>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:blinds.open">
+        Blinds
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:curtains.open">
+        Curtains
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:shutters.open">
+        Shutters
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:awnings.open">
+        Awnings
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:conBlinds.open">
+        Conservatory blinds
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:inspiration.open">
+        Inspiration
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <button type="button" class="menu__button" on="tap:about.open">
+        About us
+        <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+          <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+        </svg>
+      </button>
+    </li>
+    <li class="menu__item">
+      <a href="https://www.hillarys.co.uk/arrange-an-appointment/?source={{{source}}}" class="menu__link">Request an Appointment</a>
+    </li>
+    <li class="menu__item">
+      <a href="https://www.hillarys.co.uk/request-a-brochure/?source={{{source}}}" class="menu__link">Request a Brochure</a>
+    </li>
+  </ul>
+
+  <a href="tel:{{{ phoneNumber }}}" class="menu__phone">
+    <svg class="menu__phone-icon" width="32" height="32" viewBox="0 0 32 32">
+      <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" fill-rule="evenodd" d="M30.342 24.084l-5.104-3.78c-1.278-.919-2.421-.881-3.366.063l-.58.607-1.418 1.336a.392.392 0 0 1-.464.054l-.733-.42c-3.927-2.258-8.418-7.3-8.837-10.09a.455.455 0 0 1 .132-.423l.968-.868.631-.575c.944-.947.972-2.456.062-3.367l-4.101-4.88c-.908-.911-2.42-.883-3.367.063L2.91 3.137c-.432.552-1.074 1.45-1.342 2.135a7.69 7.69 0 0 0-.473 1.904C.488 12.19 2.78 16.771 8.995 22.989c8.595 8.592 15.522 7.946 15.822 7.912a7.727 7.727 0 0 0 1.909-.478l.02-.008c.993-.391 1.854-1.059 2.56-1.858l.25-.282.816-.924c.805-.967.88-2.353-.03-3.267" />
+    </svg>
+    {{{ phoneNumber }}}
+  </a>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="blinds" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:blinds.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">Blinds</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/?source={{{source}}}">
+      Browse All Blinds
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Our Blinds Range <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/roller-blinds/?source={{{source}}}">Roller Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/roman-blinds/?source={{{source}}}">Roman Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/blackout-blinds/?source={{{source}}}">Blackout Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/wooden-blinds/?source={{{source}}}">Wooden Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/venetian-blinds/?source={{{source}}}">Venetian Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/pleated-blinds/?source={{{source}}}">Pleated Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/perfect-fit-blinds/?source={{{source}}}">Pefect Fit Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/skylight-blinds/?source={{{source}}}">Skylight Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/vertical-blinds/?source={{{source}}}">Vertical Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/roman-blinds/voile-roman-blinds/?source={{{source}}}">Voile Roman Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/day-night-blinds/?source={{{source}}}">Day &amp; Night Blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/thermal-blinds/?source={{{source}}}">Thermal Blinds</a> </li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/transition-blinds/?source={{{source}}}">Transition Blinds</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Room <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/bathroom/?source={{{source}}}">Bathroom blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/bedroom/?source={{{source}}}">Bedroom blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/childrens-blinds/?source={{{source}}}">Children's blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/kitchen/?source={{{source}}}">Kitchen blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/living-room/?source={{{source}}}">Living room blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/bay-windows/?source={{{source}}}">Bay windows</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Colour <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/black/?source={{{source}}}">Black blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/blue/?source={{{source}}}">Blue blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/brown/?source={{{source}}}">Brown blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/cream/?source={{{source}}}">Cream blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/green/?source={{{source}}}">Green blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/grey/?source={{{source}}}">Grey blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/orange/?source={{{source}}}">Orange blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/pink/?source={{{source}}}">Pink blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/purple/?source={{{source}}}">Purple blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/red/?source={{{source}}}">Red blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/silver/?source={{{source}}}">Silver blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/white/?source={{{source}}}">White blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/yellow/?source={{{source}}}">Yellow blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/floral/?source={{{source}}}">Floral blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/patterned/?source={{{source}}}">Patterned blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/striped/?source={{{source}}}">Striped blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/geometric-blinds/?source={{{source}}}">Geometric blinds</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Inspiration <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/blinds/?source={{{source}}}">Blinds inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/style-guide/?source={{{source}}}">Style Guide</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/mercury-collection/?source={{{source}}}">Mercury Collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/abigail-ahern-collection/?source={{{source}}}">Abigail Ahern Collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/housebeautiful/?source={{{source}}}">House Beautiful collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/live-that-style/?source={{{source}}}">Live that style</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/blinds/voile-blinds/?source={{{source}}}">Voile blinds</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Buying Guide <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/2018/01/blinds-buying-guide/?source={{{source}}}">Blinds buying guide</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/blinds-range/your-in-home-appointment/?source={{{source}}}">Your in-home appointment</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/our-service/?source={{{source}}}">Our Service</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/moving-home/?source={{{source}}}">Moving Home</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="curtains" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:curtains.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">Curtains</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/curtains/?source={{{source}}}">
+      Browse All Curtains
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Room <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/bedroom/?source={{{source}}}">Bedroom curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/living-room/?source={{{source}}}">Living room curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/dining-room/?source={{{source}}}">Dining room curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/childrens/?source={{{source}}}">Children's curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/kitchen/?source={{{source}}}">Kitchen curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/bay-window-curtains/?source={{{source}}}">Bay window curtains</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Colour <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/blue/?source={{{source}}}">Blue curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/brown/?source={{{source}}}">Brown curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/cream/?source={{{source}}}">Cream curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/green/?source={{{source}}}">Green curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/orange/?source={{{source}}}">Orange curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/striped/?source={{{source}}}">Striped curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/yellow/?source={{{source}}}">Yellow curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/grey/?source={{{source}}}">Grey curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/pink/?source={{{source}}}">Pink curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/purple/?source={{{source}}}">Purple curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/red/?source={{{source}}}">Red curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/silver/?source={{{source}}}">Silver curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/white/?source={{{source}}}">White curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/patterned/?source={{{source}}}">Patterned curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/plain/?source={{{source}}}">Plain curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/floral/?source={{{source}}}">Floral curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/geometric-curtains/?source={{{source}}}">Geometric curtains</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Curtain Types <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/eyelet-curtains/?source={{{source}}}">Eyelet curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/pencil-pleat-curtains/?source={{{source}}}">Pencil pleat curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/pinch-pleat-curtains/?source={{{source}}}">Pinch pleat curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/blackout-curtains/?source={{{source}}}">Blackout curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/wave-header-curtains/?source={{{source}}}">Wave header curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/thermal-curtains/?source={{{source}}}">Thermal curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/voile-curtains/?source={{{source}}}">Voile curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/velvet-curtains/?source={{{source}}}">Velvet curtains</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Inspiration <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/curtains/?source={{{source}}}">Curtains inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/curtains/voile/?source={{{source}}}">Voile curtains</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/mercury-collection/?source={{{source}}}">Mercury Collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/abigail-ahern-collection/?source={{{source}}}">Abigail Ahern Collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/housebeautiful/?source={{{source}}}">House Beautiful collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/live-that-style/?source={{{source}}}">Live that style</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Buying Guide <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/curtains/your-in-home-appointment/?source={{{source}}}">Your in-home appointment</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/our-service/?source={{{source}}}">Our Service</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/2017/06/curtains-buying-guide/?source={{{source}}}">Curtains buying guide</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/moving-home/?source={{{source}}}">Moving Home</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="shutters" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:shutters.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">Shutters</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/?source={{{source}}}">
+      Browse All Shutters
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Our Shutters Range <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/full-height-shutters/?source={{{source}}}">Full height shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/tier-on-tier-shutters/?source={{{source}}}">Tier on tier shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/cafe-style-shutters/?source={{{source}}}">Cafe style shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/tracked-shutters/?source={{{source}}}">Tracked shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/shaped-shutters/?source={{{source}}}">Shaped shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/solid-shutters/?source={{{source}}}">Solid shutters</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Colour <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/white/?source={{{source}}}">White shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/grey/?source={{{source}}}">Grey shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/cream/?source={{{source}}}">Cream shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/brown/?source={{{source}}}">Brown shutters</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Room <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/bathroom/?source={{{source}}}">Bathroom shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/living-room/?source={{{source}}}">Living room shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/bedroom/?source={{{source}}}">Bedroom shutters</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/dining-room/?source={{{source}}}">Dining room shutters</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Inspiration <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/shutters/?source={{{source}}}">Shutters inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/housebeautiful/atmosphere/?source={{{source}}}">House Beautiful Shutters collection</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/in-home-visualisation-tool/?source={{{source}}}">In-home visualisation app</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Buying Guide <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/our-shutter-styles/?source={{{source}}}">Our shutter styles</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/the-hillarys-difference/?source={{{source}}}">Your in-home appointment</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/shutters-range/tips-and-advice/?source={{{source}}}">Tips and advice</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/moving-home/?source={{{source}}}">Moving Home</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="awnings" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:awnings.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">Awnings</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/awnings/?source={{{source}}}">
+      Browse All Awnings
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Our Awnings Range <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/awnings/?source={{{source}}}">Awnings</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/awnings/?source={{{source}}}">Awnings inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/our-service/?source={{{source}}}">Our service</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/awnings/your-in-home-appointment/?source={{{source}}}">Your in-home appointment</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="conBlinds" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:conBlinds.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">Conservatory blinds</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/?source={{{source}}}">
+      Browse All Conservatory blinds
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24"
+        height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Type <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/blinds-for-the-roof/?source={{{source}}}">Conservatory blinds for the roof</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/blinds-for-the-sides/?source={{{source}}}">Conservatory blinds for the sides</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/specialist-pleated-blinds/?source={{{source}}}">Specialist Pleated blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/perfect-fit/?source={{{source}}}">Perfect fit</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/vertical-blinds/?source={{{source}}}">Vertical blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/venetian-blinds/?source={{{source}}}">Venetian blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/wooden-blinds/?source={{{source}}}">Wooden blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/roman-blinds/?source={{{source}}}">Roman blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/roller-blinds/?source={{{source}}}">Roller blinds</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Buying guide <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/conservatory-blinds/tips-and-advice/?source={{{source}}}">Tips and advice</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/2016/01/how-to-clean-conservatory-side-blinds/?source={{{source}}}">How to clean conservatory side blinds</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/our-service/?source={{{source}}}">Our service</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="inspiration" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:inspiration.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">Inspiration</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/inspiration/?source={{{source}}}">
+      Browse All Inspiration
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Take A Look At <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/latest-trends/?source={{{source}}}">Latest trends</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/new-collections/?source={{{source}}}">New Collections</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/life-styles/?source={{{source}}}">Hillarys LifeStyles</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/meet-our-customers/?source={{{source}}}">Real Homes</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Room <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/room/bathroom/?source={{{source}}}">Bathroom</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/room/bedroom/?source={{{source}}}">Bedroom</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/room/nursery/?source={{{source}}}">Nursery</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/room/kitchen/?source={{{source}}}">Kitchen</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/room/living-room/?source={{{source}}}">Living room</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/bay-windows/?source={{{source}}}">Bay windows</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/conservatories/?source={{{source}}}">Conservatories</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Type <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/blinds-type/?source={{{source}}}">Blinds inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/curtains/?source={{{source}}}">Curtains inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/shutters/?source={{{source}}}">Shutters inspiration</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/inspiration/awnings/?source={{{source}}}">Awnings inspiration</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>
+
+<amp-sidebar class="menu" id="about" layout="nodisplay" side="right">
+  <header class="menu__header">
+    <button type="button" class="menu__header-button menu__header-button--back" aria-label="Go back" on="tap:about.close">
+      <svg class="menu__header-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="#000" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </button>
+    <p class="menu__header-copy">About us</p>
+    <button type="button" class="menu__header-button" aria-label="Close menu" on="tap:navMenu.close">
+      <svg class="menu__header-button-icon" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2.667" d="M8.567 23.367l14.8-14.8-14.8 14.8zm14.8 0l-14.8-14.8 14.8 14.8z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="menu__content">
+    <a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/?source={{{source}}}">
+      Browse All About us
+
+      <svg aria-hidden="true" class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24">
+        <path fill="currentColor" fill-rule="nonzero" d="M9.548 16.167L22.96 2.755 20.204 0 4 16.204 20.223 32l2.718-2.792z" />
+      </svg>
+    </a>
+
+    <amp-accordion class="menu-accordion menu-accordion--child" animate disable-session-states expand-single-section>
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Careers <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/careers/?source={{{source}}}">Careers</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/careers/become-an-advisor/?source={{{source}}}">Become an advisor</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/careers/head-office/?source={{{source}}}">Head office roles</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/careers/company-values/?source={{{source}}}">Company values</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">Our Company <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/history-of-hillarys/?source={{{source}}}">History</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/press-media/?source={{{source}}}">Press &amp; Media</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/committed-to-charity/?source={{{source}}}">Charity</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-accordion__item">
+        <header class="menu-accordion__header">
+          <p class="menu-accordion__sub-title">About Us <span class="menu-accordion__icon"></span></p>
+        </header>
+
+        <ul class="menu__list">
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/our-service/?source={{{source}}}">Our service</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/your-local-hillarys/?source={{{source}}}">Find your local advisor</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/reviews/?source={{{source}}}">Reviews</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/faqs/?source={{{source}}}">FAQs</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/visit-us-in-your-area/?source={{{source}}}">In your area</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/product-testing/?source={{{source}}}">Product Testing</a></li>
+          <li><a class="menu__link" href="https://www.hillarys.co.uk/about-hillarys/made-in-britain/?source={{{source}}}">Made in the UK</a></li>
+        </ul>
+      </section>
+    </amp-accordion>
+  </div>
+</amp-sidebar>

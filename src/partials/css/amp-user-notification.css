@@ -1,0 +1,41 @@
+.cookie-message {
+display: block;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 24px 16px;
+background-color: #dcdcd8;
+padding: 16px 24px;
+transition: transform 0.3s ease-in-out;
+z-index: 10;
+}
+
+.cookie-message__body,
+.cookie-message__link {
+color: #2e2c2c;
+}
+
+.cookie-message__body {
+margin-top: 0;
+}
+
+.cookie-message__link {
+text-decoration: underline;
+}
+
+.cookie-message__close {
+display: block;
+width: 100%;
+padding: 10px 24px;
+border: 2px solid #686058;
+border-radius: 2px;
+background-color: #686058;
+color: #fff;
+font-family: ProximaNovaAlt, Arial, "sans-serif";
+font-size: 0.75em;
+font-weight: 700;
+letter-spacing: 1px;
+line-height: 1.25;
+text-align: center;
+text-transform: uppercase;
+}

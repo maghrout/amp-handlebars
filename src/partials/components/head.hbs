@@ -1,0 +1,96 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{{ description }}}">
+
+<!-- AMP scripts -->
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+
+{{#each scriptsToLoad}}
+{{#if customElement}}
+<script async custom-element="{{{ customElement }}}" src="{{{ cdnLink }}}"></script>
+{{/if}}
+{{#if customTemplate}}
+<script async custom-template="{{{ customTemplate }}}" src="{{{ cdnLink }}}"></script>
+{{/if}}
+{{/each}}
+
+<title>{{{ title }}}</title>
+
+<!-- DONT FORGET TO POINT THIS TO THE CORRECT NONE AMP URL -->
+<link rel="canonical" href="https://www.hillarys.co.uk/{{{ canonical }}}">
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="https://www.hillarys.co.uk/favicon.ico">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_168x168.png" sizes="168x168">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_384x384.png" sizes="384x384">
+<link rel="icon" type="image/png" href="https://static.hillarys.co.uk/build/global/favicon_red_512x512.png" sizes="512x512">
+
+<style amp-boilerplate>
+  body {
+    -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+  }
+
+  @-webkit-keyframes -amp-start {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible;
+    }
+  }
+
+  @-moz-keyframes -amp-start {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible;
+    }
+  }
+
+  @-ms-keyframes -amp-start {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible;
+    }
+  }
+
+  @-o-keyframes -amp-start {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible;
+    }
+  }
+
+  @keyframes -amp-start {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible;
+    }
+  }
+</style>
+
+<noscript>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: none;
+      -moz-animation: none;
+      -ms-animation: none;
+      animation: none;
+    }
+  </style>
+</noscript>

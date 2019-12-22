@@ -1,0 +1,82 @@
+<!doctype html>
+<html amp lang="en">
+
+<head>
+    {{>components/head head}}
+    <!-- AMP scripts -->
+    <style amp-custom>
+        {{>styles/generic.styles}}
+
+        {{>styles/amp-user-notification.styles}}
+        {{>styles/header.styles}}
+        {{>styles/mega-nav.styles}}
+        {{>styles/animated-banner-strip.styles}}
+        {{>styles/amp-date-countdown.styles}}
+        {{>styles/breadcrumb.styles}}
+
+        {{!-- main --}}
+            {{>styles/browse-by-colour.styles}}
+            {{>styles/content-picker.styles}}
+            {{>styles/cta-text-and-image-strip.styles}}
+            {{>styles/fabric-style-viewer.styles}}
+            {{>styles/feature-block.styles}}
+            {{>styles/gallery-grid.styles}}
+            {{>styles/hero-block.styles}}
+            {{>styles/hero-text-strip.styles}}
+            {{>styles/influencer-stories.styles}}
+            {{>styles/logo-strip.styles}}
+            {{>styles/multiple-article-picker.styles}}
+            {{>styles/multi-product-listing.styles}}
+            {{>styles/page-header.styles}}
+            {{>styles/reviews.styles}}
+            {{>styles/sale-messaging.styles}}
+            {{>styles/service-messaging.styles}}
+            {{>styles/single-video.styles}}
+            {{>styles/social-feed.styles}}
+            {{>styles/split-content.styles}}
+            {{>styles/sub-page.styles}}
+            {{>styles/text-strip.styles}}
+            {{>styles/trustpilot-reviews.styles}}
+        {{!-- /main --}}
+
+        {{>styles/footer.styles}}
+    </style>
+</head>
+
+<body>
+    {{>components/amp-analytics pageData.ampAnalytics}}
+    {{>components/amp-user-notification pageData.ampUserNotification}}
+    {{>components/header pageData.header}}
+    {{>components/animated-banner-strip pageData.animatedBannerStrip}}
+    {{>components/amp-date-countdown pageData.ampDateCountdown}}
+    {{>components/breadcrumb pageData.breadcrumb}}
+
+    <main>
+        {{>components/browse-by-colour pageData.browseByColour}}
+        {{>components/content-picker pageData.contentPicker}}
+        {{>components/cta-text-and-image-strip pageData.ctaTextAndImageStrip}}
+        {{>components/fabric-style-viewer pageData.fabricStyleViewer}}
+        {{>components/feature-block pageData.featureBlock}}
+        {{>components/gallery-grid pageData.galleryGrid}}
+        {{>components/hero-block pageData.heroBlock}}
+        {{>components/hero-text-strip pageData.heroTextStrip}}
+        {{>components/influencer-stories pageData.influencerStories}}
+        {{>components/logo-strip}}
+        {{>components/multiple-article-picker pageData.multipleArticlePicker}}
+        {{>components/multi-product-listing pageData.multiProductListing}}
+        {{>components/page-header pageData.pageHeader}}
+        {{>components/reviews}}
+        {{>components/sale-messaging pageData.saleMessaging}}
+        {{>components/service-messaging pageData.serviceMessaging}}
+        {{>components/single-video pageData.singleVideo}}
+        {{>components/social-feed pageData.socialFeed}}
+        {{>components/split-content pageData.splitContent}}
+        {{>components/sub-page pageData.subPage}}
+        {{>components/text-strip pageData.textStrip}}
+        {{>components/trustpilot-reviews pageData.trustpilotReviews}}
+    </main>
+
+    {{>components/footer pageData.footer}}
+</body>
+
+</html>

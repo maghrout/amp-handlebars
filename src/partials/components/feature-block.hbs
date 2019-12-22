@@ -1,0 +1,23 @@
+<section class="feature-block">
+  <div class="feature-block__image-wrapper" style="background-color:{{{ backgroundColor }}};">
+    <!-- <amp-img class="feature-block__sale-overlay-image" alt="{{{saleOverlayAlt}}}"
+          src="{{{saleOverlaySrc}}}"
+          width="250" height="250" layout="responsive"></amp-img> -->
+
+    <amp-img class="feature-block__image" alt="{{{imageAlt}}}" src="{{{imageSrc}}}" width="359" height="269"
+      layout="responsive"></amp-img>
+  </div>
+
+  <div class="feature-block__content">
+    <h1 class="feature-block__header feature-block__header--variant">
+      {{#headingCopyData}}
+      <span class="feature-block__heading-copy">{{{headingCopySpan}}}</span>
+      {{/headingCopyData}}
+    </h1>
+
+    <p class="feature-block__sub-header--variant">{{{subHeaderVariant}}}</p>
+    {{#copyVariantData}}
+    <p class="feature-block__copy feature-block__copy--variant">{{{copyVariant}}}</p>
+    {{/copyVariantData}}
+  </div>
+</section>

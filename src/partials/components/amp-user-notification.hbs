@@ -1,0 +1,10 @@
+<amp-user-notification class="cookie-message" layout="nodisplay" id="cookie-message">
+    <p class="cookie-message__body">
+        {{{cookieMessageBody}}}
+        <a class="cookie-message__link" href="https://www.hillarys.co.uk/{{{ itemLink }}}source={{{ source }}}">{{{cookieMessageLinkCopy}}}</a>
+    </p>
+    <button type="button" class="cookie-message__close" aria-label="I accept cookies on this site"
+        on="tap:cookie-message.dismiss">
+        Accept
+    </button>
+</amp-user-notification>

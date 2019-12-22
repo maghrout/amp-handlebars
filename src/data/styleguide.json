@@ -1,0 +1,903 @@
+{
+  "head": {
+    "scriptsToLoad": [
+      {
+        "customElement": "amp-user-notification",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"
+      },
+      {
+        "customElement": "amp-analytics",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
+      },
+      {
+        "customElement": "amp-form",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-form-0.1.js"
+      },
+      {
+        "customElement": "amp-iframe",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+      },
+      {
+        "customElement": "amp-sidebar",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"
+      },
+      {
+        "customElement": "amp-accordion",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+      },
+      {
+        "customElement": "amp-date-countdown",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-date-countdown-0.1.js"
+      },
+      {
+        "customTemplate": "amp-mustache",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-mustache-latest.js"
+      },
+      {
+        "customElement": "amp-carousel",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-carousel-0.2.js"
+      },
+      {
+        "customElement": "amp-lightbox-gallery",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"
+      },
+      {
+        "customElement": "amp-youtube",
+        "cdnLink": "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
+      }
+    ],
+    "canonical": "styleguide",
+    "title": "Styleguide | Hillarys™",
+    "description": "Styleguide"
+  },
+  "pageData": {
+    "ampAnalytics": {
+      "config": "https://www.googletagmanager.com/amp.json?id=GTM-KT5WX2S&gtm.url=SOURCE_URL"
+    },
+    "ampUserNotification": {
+      "source": "420",
+      "cookieMessageBody": "Hillarys uses cookies to enhance your experience of our site. By continuing to browse you consent to our use of cookies.",
+      "itemLink": "cookie-information/?",
+      "cookieMessageLinkCopy": "Find out more"
+    },
+    "header": {
+      "phoneNumber": "0808 239 2657",
+      "source": "420",
+      "navLinks": [
+        {
+          "navLink": "blinds-range/?",
+          "navText": "Blinds"
+        },
+        {
+          "navLink": "curtains/?",
+          "navText": "Curtains"
+        },
+        {
+          "navLink": "shutters-range/?",
+          "navText": "Shutters"
+        },
+        {
+          "navLink": "awnings/?",
+          "navText": "Awnings"
+        }
+      ]
+    },
+    "animatedBannerStrip": {
+      "backgroundColor": "#20778D",
+      "copyPrimary": "We do it all",
+      "copyAnimation": [
+        {
+          "copyAnimation": "EXPERTLY MEASURED, TAILOR-MADE, FITTED TO PERFECTION"
+        },
+        {
+          "copyAnimation": "LET US DO THE HARD WORK FOR YOU"
+        }
+      ],
+      "hasCopyExtra": false,
+      "copyExtra": "",
+      "hasImageOverride": false,
+      "imageAlt": "",
+      "image": "https://static.hillarys.staging-hblonline.co.uk/asset/media/25669/mobile-2000x1000-1.jpg?width=480&height=240&mode=crop"
+    },
+    "ampDateCountdown": {
+      "showCountdown": false,
+      "endDate": "2019-11-14T23:59:00.000Z",
+      "countdownHeading": "Sale ends in",
+      "countdownTextDays": "days",
+      "countdownTextHours": "hours",
+      "countdownTextMins": "mins",
+      "countdownTextSecs": "sec"
+    },
+    "breadcrumb": {
+      "source": "420",
+      "itemdata": [
+        {
+          "itemLink": "",
+          "itemCopy": "Home",
+          "finalItem": "false"
+        },
+        {
+          "itemLink": "styleguide/?",
+          "itemCopy": "Styleguide",
+          "finalItem": "true"
+        }
+      ]
+    },
+    "browseByColour": {
+      "title": "Browse blinds by colour",
+      "source": "420",
+      "itemProps": [
+        {
+          "itemLink": "blinds-range//?black",
+          "itemCopy": "Black"
+        },
+        {
+          "itemLink": "blinds-range/blue/?",
+          "itemCopy": "Blue"
+        },
+        {
+          "itemLink": "blinds-range/brown/?",
+          "itemCopy": "Brown"
+        },
+        {
+          "itemLink": "blinds-range/cream/?",
+          "itemCopy": "Cream"
+        },
+        {
+          "itemLink": "blinds-range/green/?",
+          "itemCopy": "Green"
+        },
+        {
+          "itemLink": "blinds-range/grey/?",
+          "itemCopy": "Grey"
+        },
+        {
+          "itemLink": "blinds-range/orange/?",
+          "itemCopy": "Orange"
+        },
+        {
+          "itemLink": "blinds-range/pink/?",
+          "itemCopy": "Pink"
+        },
+        {
+          "itemLink": "blinds-range/purple/?",
+          "itemCopy": "Purple"
+        },
+        {
+          "itemLink": "blinds-range/red/?",
+          "itemCopy": "Red"
+        },
+        {
+          "itemLink": "blinds-range/silver/?",
+          "itemCopy": "Silver"
+        },
+        {
+          "itemLink": "blinds-range/white/?",
+          "itemCopy": "White"
+        },
+        {
+          "itemLink": "blinds-range/yellow/?",
+          "itemCopy": "Yellow"
+        }
+      ]
+    },
+    "contentPicker": {
+      "source": "420",
+      "isStacked": false,
+      "showTitleHeader": true,
+      "titleHeader": "Highlights of our new collection",
+      "titleCopy": "Need a little more interiors inspiration? Explore the favourite trends from our collection.",
+      "optionsData": [
+        {
+          "imageAlt": "Vivado Russet roman blinds with house plant",
+          "imageSrc": "https://static.hillarys.co.uk/asset/media/27156/hil-2019softslaunch-romans-vivadorusset-living-promo-landscape-3_homepage_promo.jpg?width=590&height=442&mode=crop",
+          "showOverlay": true,
+          "imgOverlayAlt": "up to 50% off selected styles",
+          "imageOverlaySrc": "https://static.hillarys.co.uk/asset/media/27144/produce-overlay.jpg?width=120&height=120&mode=max",
+          "optionHeaderCopy": "Blinds",
+          "showOptionCopy": true,
+          "optionCopy": "Combining contemporary designs with great practical benefits, our huge range of blinds offers style solutions for every home",
+          "itemLink": "blinds/?-range",
+          "hideOptionCtaCopy": false,
+          "optionCtaCopy": "View Blinds",
+          "showStrip": true,
+          "stripCopy": "big winter sale",
+          "stripBackground": "#9F1633",
+          "stripColour": "#FFFFFF"
+        },
+        {
+          "imageAlt": "Folia sky haze curtains with clarence sky blue roman blinds in living room",
+          "imageSrc": "https://static.hillarys.co.uk/asset/media/27157/hil_curtain_folia_sky_haze_roman_clarence_sky_blue_land_homepage_promo.jpg?width=1180&height=884&mode=crop",
+          "showOverlay": true,
+          "imgOverlayAlt": "up to 50% off selected styles",
+          "imageOverlaySrc": "https://static.hillarys.co.uk/asset/media/27144/produce-overlay.jpg?width=120&height=120&mode=max",
+          "optionHeaderCopy": "Curtains",
+          "showOptionCopy": true,
+          "optionCopy": "Add a touch of luxury to your home with beautiful curtains from our collection of quality fabrics and fashion-forward designs.",
+          "itemLink": "curtains",
+          "hideOptionCtaCopy": false,
+          "optionCtaCopy": "View Curtains",
+          "showStrip": false,
+          "stripCopy": "big winter sale",
+          "stripBackground": "#9F1633",
+          "stripColour": "#FFFFFF"
+        },
+        {
+          "imageAlt": "roller blinds denim drift",
+          "imageSrc": "https://static.hillarys.co.uk/asset/media/24089/shutters-richmond-white.jpg?width=800&height=600&mode=crop",
+          "showOverlay": true,
+          "imgOverlayAlt": "up to 50% off selected styles",
+          "imageOverlaySrc": "https://static.hillarys.co.uk/asset/media/27144/produce-overlay.jpg?width=120&height=120&mode=max",
+          "optionHeaderCopy": "Shutters",
+          "showOptionCopy": true,
+          "optionCopy": "Our contemporary collection of stunning shutters offers ranges and colours to elevate any room and capture your unique style",
+          "itemLink": "shutters-range/?",
+          "hideOptionCtaCopy": false,
+          "optionCtaCopy": "View",
+          "showStrip": false,
+          "stripCopy": "big winter sale",
+          "stripBackground": "#9F1633",
+          "stripColour": "#FFFFFF"
+        }
+      ]
+    },
+    "ctaTextAndImageStrip": {
+      "source": "420",
+      "imageAlt": "hillarys presents your room or mine, logo and image for hillarys tv show in living rooms setting",
+      "imageSrc": "https://static.hillarys.co.uk/asset/media/26829/web_banner_mobile-2.jpg?width=768",
+      "titleCopy": "As seen on ‘Your Room or Mine?’",
+      "showSubTitleCopy": true,
+      "subTitleCopy": "In partnership with Channel 4",
+      "imageStripCopy": [
+        "Discover our favourite looks from the latest episode, plus find plenty of tips and advice on how to recreate them in your own home."
+      ],
+      "itemLinkCopy": "Find out more",
+      "itemLink": "your-room-or-mine/?",
+      "hasRTE": false,
+      "rteHTML": "<div class='cta-text-and-image-strip__text rte'><ul> <li><span class='tickList'>Made to measure and crafted to fit unusual shaped windows</span></li> <li><span class='tickList'>Waterproof or uPVC options for bathrooms and kitchens</span></li> <li><span class='tickList'>Our custom colour service lets you match to almost any shade</span></li> <li><span class='tickList'>Enjoy peace of mind with our five year guarantee</span></li> </ul></div>",
+      "rteCSS": ".rte{width:100%}.rte ul{margin-bottom:16px}.rte ul{margin:0;padding:20px 0}.rte .tickList{display:block;font-weight:500;position:relative;padding-left:30px}.rte .tickList:before{background:url('//static.hillarys.staging-hblonline.co.uk/build/global/svgs/icon--tick-green.svg') no-repeat 50%/60%;content:'';height:30px;left:0;position:absolute;top:0;width:30px}.rte ul li{margin-bottom:20px}.rte ul li:last-child{margin-bottom:0}"
+    },
+    "fabricStyleViewer": {
+      "source": "420",
+      "title": "Browse shutter finishes",
+      "subText": "We’ve shutter styles to suit every type of window, and our expert advisors are here to help you achieve a superior finish.",
+      "fabricSampleData": [
+        {
+          "itemLink": "shutters-range/fabrics/Element-Grey/?product=Shutters&",
+          "sampleLinkCopy": "Element Grey",
+          "sampleImageAlt": "Element Grey",
+          "sampleImageAltSrc": "https://static.hillarys.co.uk/asset/media/8810/element-grey.jpg?width=544&height=624&mode=Crop"
+        },
+        {
+          "itemLink": "shutters-range/fabrics/Extra-White/?product=Shutters&",
+          "sampleLinkCopy": "Extra White",
+          "sampleImageAlt": "Extra White",
+          "sampleImageAltSrc": "https://static.hillarys.co.uk/asset/media/9629/extra-white.jpg?width=544&height=624&mode=Crop"
+        },
+        {
+          "itemLink": "shutters-range/fabrics/Storm-Grey/?product=Shutters&",
+          "sampleLinkCopy": "Storm Grey",
+          "sampleImageAlt": "Storm Grey",
+          "sampleImageAltSrc": "https://static.hillarys.co.uk/asset/media/8814/storm-grey.jpg?width=544&height=624&mode=Crop"
+        },
+        {
+          "itemLink": "shutters-range/fabrics/Chalk-Pink/?product=Shutters&",
+          "sampleLinkCopy": "Chalk Pink",
+          "sampleImageAlt": "Chalk Pink",
+          "sampleImageAltSrc": "https://static.hillarys.co.uk/asset/media/9624/chalk-pink.jpg?width=544&height=624&mode=Crop"
+        },
+        {
+          "itemLink": "shutters-range/fabrics/French-Oak/?product=Shutters&",
+          "sampleLinkCopy": "French Oak",
+          "sampleImageAlt": "French Oak",
+          "sampleImageAltSrc": "https://static.hillarys.co.uk/asset/media/8783/french-oak.jpg?width=544&height=624&mode=Crop"
+        },
+        {
+          "itemLink": "shutters-range/fabrics/Alabaster/?product=Shutters&",
+          "sampleLinkCopy": "Alabaster",
+          "sampleImageAlt": "Alabaster",
+          "sampleImageAltSrc": "https://static.hillarys.co.uk/asset//media/9618/alabaster.jpg?width=544&height=624&mode=Crop"
+        }
+      ],
+      "browseMoreCopy": "Browse all styles",
+      "browseMoreLink": "shutters-range/shutter-styles/?"
+    },
+    "featureBlock": {
+      "backgroundColor": "#B8DCE3",
+      "saleOverlayAlt": "New sale",
+      "saleOverlaySrc": "https://static.hillarys.co.uk/asset/media/26826/new-home-roundel-green.png?width=120&height=120&mode=max",
+      "imageAlt": "Muse Pearl curtains and Daze Silver romans in the dining room",
+      "imageSrc": "https://static.hillarys.co.uk/asset/media/25506/hil-2019softslaunch-curtains-musepearl-romans-dazesilver-dining-christmas-landscape.jpg?width=620&height=465&mode=crop",
+      "headingCopyData": [
+        {
+          "headingCopySpan": "Expertly Measured"
+        },
+        {
+          "headingCopySpan": "Tailor-made"
+        },
+        {
+          "headingCopySpan": "Fitted to perfection"
+        }
+      ],
+      "subHeaderVariant": "We do it all.",
+      "copyVariantData": [
+        {
+          "copyVariant": "Curtains, shutters and blinds chosen by you."
+        },
+        {
+          "copyVariant": "Measured, made and fitted by us."
+        }
+      ]
+    },
+    "galleryGrid": {
+      "heading": "Be inspired by our new collection",
+      "subtext": "Browse our gallery of fashion-forward curtains, exclusive designs and stunning colour combinations.",
+      "itemWidth": "480",
+      "maxGridHeight": "720",
+      "itemData": [
+        {
+          "itemAlt": "Close up of Fragment Monochrome curtains in kitchen",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/25429/hil-2019softslaunch-curtains-fragment-monochrome-kitchen0421landscape.jpg?width=480&cb=20192509174214&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View Close up of Fragment Monochrome curtains in kitchen",
+          "height": "339"
+        },
+        {
+          "itemAlt": "Luxe Pink living room with Pink Curtains in Mineral Blush fabric layered with a Grey Pattern Roman Blind",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/24144/daybed-shot-mineral-blush-curtains-with-mirage-pumice-roman-blind.jpg?width=480&cb=20192609134022&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View Luxe Pink living room with Pink Curtains in Mineral Blush fabric layered with a Grey Pattern Roman Blind",
+          "height": "576"
+        },
+        {
+          "itemAlt": "HIL_ABIGAILAHERN_XMAS_PORTRAIT_Garcia-Phantom_wave_curtains",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/19654/hil_abigailahern_xmas_portrait_garcia-phantom_wave_curtains.jpg?width=480&cb=20190312161329&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View HIL_ABIGAILAHERN_XMAS_PORTRAIT_Garcia-Phantom_wave_curtains",
+          "height": "720"
+        },
+        {
+          "itemAlt": "Muse Pearl roman blinds under daze silver curtains in a dining room setting with christmas tree",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/25506/hil-2019softslaunch-curtains-musepearl-romans-dazesilver-dining-christmas-landscape.jpg?width=480&cb=20191811135914&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View Muse Pearl roman blinds under daze silver curtains in a dining room setting with christmas tree",
+          "height": "334"
+        },
+        {
+          "itemAlt": "HIL_ABIGAILAHERN_LANDSCAPE_Jago-Tabac_curtains_and_Amis-Buff_Roman_blinds_with_Colette-Soleil_fringing",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/19560/hil_abigailahern_landscape_jago-tabac_curtains_and_amis-buff_roman_blinds_with_colette-soleil_fringing.jpg?width=480&cb=20190312161011&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View HIL_ABIGAILAHERN_LANDSCAPE_Jago-Tabac_curtains_and_Amis-Buff_Roman_blinds_with_Colette-Soleil_fringing",
+          "height": "320"
+        },
+        {
+          "itemAlt": "Surface Peacock curtains and Muse Deep Lapis romans in the living room decorated for chritsmas",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/25519/hil-2019softslaunch-curtains-surfacepeacock-romans-musedeeplapis-living-christmas-landscape.jpg?width=480&cb=20191811135057&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View Surface Peacock curtains and Muse Deep Lapis romans in the living room decorated for chritsmas",
+          "height": "323"
+        },
+        {
+          "itemAlt": "Daze Silver curtains next to christmas tree in dining room ",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/25500/hil-2019softslaunch-curtains-musepearl-romans-dazesilver-dining-christmas-detail1.jpg?width=480&cb=20191811135356&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View Daze Silver curtains next to christmas tree in dining room",
+          "height": "720"
+        },
+        {
+          "itemAlt": "Close up detail of blue sofa with dark floral curtain behind",
+          "itemLink": "https://static.hillarys.co.uk/asset/media/25568/hil-2019softslaunch-homeinterest-curtains-forenza-midnight-detail0229landscape.jpg?width=480&cb=20192609114630&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "itemCopy": "View Close up detail of blue sofa with dark floral curtain behind",
+          "height": "351"
+        }
+      ]
+    },
+    "heroBlock": {
+      "source": "420",
+      "altText": "Living room with white blinds, grey sofa and Christmas tree",
+      "heroImage": "https://static.hillarys.co.uk/asset/media/27160/hil_roller_elonasilver_landscape_christmas-1.jpg?width=769",
+      "saleImage": "https://static.hillarys.co.uk/asset/media/27154/device.jpg?width=250&cb=20192910081807"
+    },
+    "heroTextStrip": {
+      "heading": "Blinds",
+      "subText": "Explore our range of beautiful made to measure blinds, browse fabrics and colours and book an in-home appointment."
+    },
+    "influencerStories": {
+      "source": "420",
+      "itemData": [
+        {
+          "imgAlt": "hillarys presents your room or mine, logo and image for hillarys tv show in living rooms setting",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/26836/web_banner_mobile_edited_homepage.jpg?width=735&height=606&mode=crop&cb=20191010164216&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "name": "As seen on ‘Your Room or Mine?’",
+          "professionOrLocation": "In partnership with Channel 4",
+          "copy": "Discover our favourite looks from the latest episode, plus find plenty of tips and advice on how to recreate them in your own home.",
+          "navLink": "your-room-or-mine/?"
+        }
+      ]
+    },
+    "multipleArticlePicker": {
+      "source": "420",
+      "heading": "Discover more blinds inspiration and advice",
+      "supportingCopy": "Find your perfect made-to-measure style",
+      "itemWidth": "300",
+      "articles": [
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/9428/coral-roman-kitchen-honesty-persimmon.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Coral Honesty Persimmon Roman Blinds in the kitchen",
+          "articleTitle": "Inspiration for all blind types",
+          "articleCopy": "We've got lots of inspirational ideas to help you choose the perfect styles and colours.",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/blinds/",
+          "articleLinkSeoCopy": "Inspiration for all blind types",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/3881/oakwood-faux-wood-venetian-blind-bathroom.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Wood Illusions Blind_Oakwood_Bathroom",
+          "articleTitle": "Best Wooden and wood-look blinds for bathrooms",
+          "articleCopy": "- Best Wooden and wood-look blinds for bathrooms",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/01/wooden-blinds-for-bathrooms/",
+          "articleLinkSeoCopy": "Best Wooden and wood-look blinds for bathrooms",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/23969/hil-verticals-kitchen-harrietmink-headrail-anthracite-2rtamend-2.jpg?width=300&cb=20191707141448&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Harriet Mink Vertical blind in dining room",
+          "articleTitle": "How to style Vertical blinds",
+          "articleCopy": "- How to style Vertical blinds",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2019/06/how-to-style-vertical-blinds/",
+          "articleLinkSeoCopy": "How to style Vertical blinds",
+          "imageHeight": 181
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/12509/hil-rom-huxley_charcoal-010.jpg?width=300&cb=20191807113100&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Huxley Charcoal Roman Blinds in modern bedroom with side table",
+          "articleTitle": "New plains & textured fabrics",
+          "articleCopy": "- New plains & textured fabrics",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2017/10/new-plains-and-textured-fabrics/",
+          "articleLinkSeoCopy": "New plains & textured fabrics",
+          "imageHeight": 266
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/7042/toile-french-blue-roman-blind.jpg?width=300&cb=20192907144851&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Large white room with ornate wooden panels on the walls and two Roman blinds fitted to the windows in Toile French Blue fabric",
+          "articleTitle": "Bedroom blackouts",
+          "articleCopy": "Creating the right environment for a good night’s rest is really beneficial. ",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/02/blackout-blinds-for-bedrooms/",
+          "articleLinkSeoCopy": "Bedroom blackouts",
+          "imageHeight": 194
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/23988/george-landscape.jpg?width=300&cb=20191306160157&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "George Clarke in front of Norfolk Charcoal Verticals",
+          "articleTitle": "George Clarke’s Ways with Wide Windows",
+          "articleCopy": "- George Clarke’s Ways with Wide Windows",
+          "articleLink": "https://www.hillarys.co.uk/ways-with-wide-windows/",
+          "articleLinkSeoCopy": "George Clarke’s Ways with Wide Windows",
+          "imageHeight": 181
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/11015/grey-fauxwood-blind_bedroom_lunaire.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Grey fauxwood blind_bedroom_Lunaire",
+          "articleTitle": "Gorgeous grey Faux Wood blinds",
+          "articleCopy": "- Gorgeous grey Faux Wood blinds",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2017/07/gorgeous-grey-faux-wood-blinds/",
+          "articleLinkSeoCopy": "Gorgeous grey Faux Wood blinds",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/2972/roman-blind_lotta-dove-grey_living-room.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Roman Blind_Lotta Dove Grey_Living Room",
+          "articleTitle": "Living room blind ideas",
+          "articleCopy": "Read our top tips on finding the right blind for your window shape, whatever the style of your living room. ",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/01/living-room-blind-ideas/",
+          "articleLinkSeoCopy": "Living room blind ideas",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/12492/lazio-natural-roman-blind-bedroom.jpg?width=300&cb=20191807111132&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Roller Blind in Lazio Natural in a Bedroom with blue armchair and bookcase",
+          "articleTitle": "New geometric fabrics",
+          "articleCopy": "- New geometric fabrics",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2017/10/new-geometric-fabrics/",
+          "articleLinkSeoCopy": "New geometric fabrics",
+          "imageHeight": 266
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/22580/guarantee-3-landscape.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Tetbury Mustard curtains and silk white shutters in bedroom",
+          "articleTitle": "Window dressing ideas",
+          "articleCopy": "In this ‘how to…’ guide we look at the ",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/01/window-dressing-ideas/",
+          "articleLinkSeoCopy": "Window dressing ideas",
+          "imageHeight": 181
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/4384/gray-roller-dining-room-joya-yellow.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Floral patterned Joya Yellow roller blinds hung in dining room",
+          "articleTitle": "Roller blinds inspiration",
+          "articleCopy": "- Roller blinds inspiration",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/blinds/roller/",
+          "articleLinkSeoCopy": "Roller blinds inspiration",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/3907/norfolk-ivory-roller-blind-bedroom.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Plain Norfolk Ivory roller blind hung in bedroom",
+          "articleTitle": "How to dress your windows with Roller blinds",
+          "articleCopy": "Take a closer look at the ways you can use Roller blinds in your home.",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2015/10/how-to-dress-your-windows-with-roller-blinds/",
+          "articleLinkSeoCopy": "How to dress your windows with Roller blinds",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/8252/white-shutter-bedroom-haywood-purity6.jpg?width=300&cb=20191807111844&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Haywood Purity Shutters in a Living Room Bay Window",
+          "articleTitle": "How to dress your breathtaking bay window",
+          "articleCopy": "dress this striking focal point.",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2014/03/how-to-dress-your-breathtaking-bay-window/",
+          "articleLinkSeoCopy": "How to dress your breathtaking bay window",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/6864/white-faux-wood-blinds.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "White faux wood blinds in a conservatory with a table set for breakfast",
+          "articleTitle": "Waterproof products",
+          "articleCopy": "Here’s our rundown of the best options for humid conditions.",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2015/04/waterproof-products/",
+          "articleLinkSeoCopy": "Waterproof products",
+          "imageHeight": 194
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/4665/hil_w-stormgrey-50mm-148.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Wooden Blind_Haywood Washboard Grey_Living Room",
+          "articleTitle": "Wooden blinds for living rooms",
+          "articleCopy": "The natural beauty of wood enhances your living space and complements every style of décor.",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/01/wooden-blinds-for-living-rooms/",
+          "articleLinkSeoCopy": "Wooden blinds for living rooms",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/9215/travis-natural-vertical-blind-gallery-image.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Travis-Natural-Vertical-blind-gallery-image",
+          "articleTitle": "How to dress bay windows with Vertical blinds",
+          "articleCopy": "- How to dress bay windows with Vertical blinds",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/12/vertical-blinds-for-bay-windows/",
+          "articleLinkSeoCopy": "How to dress bay windows with Vertical blinds",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/10476/padro-spring-roller-blind.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Padro-Spring-Roller-blind",
+          "articleTitle": "Roller blinds explained",
+          "articleCopy": "- Roller blinds explained",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2017/04/what-are-roller-blinds/",
+          "articleLinkSeoCopy": "Roller blinds explained",
+          "imageHeight": 266
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/4350/beige-blackout-vertical-blind-bedroom-iowa-linen.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Vertical Blind_Iowa Linen_Bedroom",
+          "articleTitle": "Blinds for bedrooms",
+          "articleCopy": "- Blinds for bedrooms",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/02/bedroom-blind-ideas/",
+          "articleLinkSeoCopy": "Blinds for bedrooms",
+          "imageHeight": 300
+        },
+        {
+          "articleImage": "https://static.hillarys.co.uk/asset/media/4646/lima_plum-22fin.jpg?width=300&mcb=5f884e47a7424cfe86340315ccaafed0",
+          "articleImageAltText": "Vertical Blind_Tresco Plum_Living Room",
+          "articleTitle": "Vertical blinds explained",
+          "articleCopy": "- Vertical blinds explained",
+          "articleLink": "https://www.hillarys.co.uk/inspiration/2016/12/vertical-blinds-explained/",
+          "articleLinkSeoCopy": "Vertical blinds explained",
+          "imageHeight": 300
+        }
+      ]
+    },
+    "multiProductListing": {
+      "source": "420",
+      "heading": "Browse different blind types",
+      "subText": "Not sure what you'd like? Our advisors can give you plenty of advice and guidance at your in-home appointment",
+      "itemData": [
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/roller-blinds/?",
+          "heading": "Roller blinds",
+          "text": "Sleek and simple, ideal for all spaces including kitchens and bathrooms.",
+          "imgAlt": "Dining area with yellow statement chairs and a window dressed with white Leaf pattern roller blinds",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/17929/cecillewhite_large.jpg?width=304&amp;height=456&amp;mode=crop&amp;cb=20191110153134&amp;mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/roman-blinds/?",
+          "heading": "Roman blinds",
+          "text": "Soft fabric blinds that fold upwards when opened, a compromise between blinds and curtains.",
+          "imgAlt": "Green and yellow  printed roman blinds, patterned and printed cushions on leisure hanging chair ",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/25572/hil-2019softslaunch-homeinterest-romans-mirrissa-twilight0095portrait.jpg?width=304&amp;height=456&amp;mode=crop&amp;cb=20192609141829&amp;mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/vertical-blinds/?",
+          "heading": "Vertical blinds",
+          "text": "Vertical slats work well for large or unusual shaped windows and controlling light",
+          "imgAlt": "Vesper Light Pink Vertical blind in dining room",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/23375/hil-verticals-dining-vesperlightpink-headrail-white-2.jpg?width=304&amp;height=456&amp;mode=crop&amp;cb=20191806112304&amp;mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": true,
+          "heading": "Awkward window shape or size?",
+          "body": "Don't worry, our advisors will help you find a solution for any space."
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/wooden-blinds/?",
+          "heading": "Wooden blinds",
+          "text": "Real and Faux wood options for any space, including kitchens and bathrooms",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/21374/wooden-blinds.jpg?width=608&height=912&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/venetian-blinds/?",
+          "heading": "Venetian blinds",
+          "text": "Lightweight and easy to clean, great for controlling light and privacy",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/21384/venetian-blinds.jpg?width=304&height=456&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/blackout-blinds/?",
+          "heading": "Blackout blinds",
+          "text": "Reduce the amount of light coming in with specialist blackout fabrics and finishes",
+          "imgAlt": "A child's blue bedroom with a bed that has a roman blind featuring stars and moons. A star and moon decoration hangs on the right above the bed.",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/26646/hil-2019softslaunch-romans-twilightmidnight-bedroom-20.jpg?width=304&height=456"
+        },
+        {
+          "isServiceMessaging": true,
+          "heading": "Matching to furniture or paint colours?",
+          "body": "See how colours and prints look in your own home."
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/skylight-blinds/?",
+          "heading": "Skylight blinds",
+          "text": "Roller, Pleated or Venetian blinds, tension fitted to your skylight window.",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/26882/hil-rol-acacia_silver-071.jpg?width=304&height=456&mode=crop&cb=20191410160812&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/bloc-blinds/?",
+          "heading": "Bloc blinds",
+          "text": "Roller blinds fit within this clever frame designed for skylight windows.",
+          "imgAlt": "Cosmic Blue Bloc blind in bedroom",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/21654/bloc-blinds-portrait.jpg?width=608&height=912&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/perfect-fit-blinds/?",
+          "heading": "Perfect Fit blinds",
+          "text": "Designed to sit inside your uPVC frames with no need for drilling",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/21378/perfect-fit-blinds.jpg?width=608&height=912&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": true,
+          "heading": "Not sure what size?",
+          "body": "Our expert advisors will measure up and fit for you."
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/pleated-blinds/?",
+          "heading": "Pleated blinds",
+          "text": "Soft and delicate, perfect for filtering light and protecting privacy",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/21379/pleated-blinds.jpg?width=304&height=456&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/roman-blinds/voile-roman-blinds/?",
+          "heading": "Voile Roman blinds",
+          "text": "A beautiful sheer fabric blind that gently filters sunlight and provides day time privacy",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/20144/portrait-roomset-of-voile-romans-in-office.jpg?width=304&height=456&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/day-night-blinds/?",
+          "heading": "Enlight&trade; Roller Blinds",
+          "text": "This Roller blind works like a Venetian, giving you total control over light and privacy",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/23091/hil-rol-enlight-diffuse-white-3.jpg?width=608&height=912&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": true,
+          "heading": "Can't decide what you want?",
+          "body": "We'll bring our entire range to your appointment, so there's no need to decide now."
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/thermal-blinds/?",
+          "heading": "Thermal blinds",
+          "text": "Choose from a range of thermal fabrics to help reduce heat loss and lower bills",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/23194/hillarys_ilts-_urbanglamour_erica-_nexus-roman-_xavierwhiteroller_003.jpg?width=304&height=456&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/top-down-bottom-up-blinds/?",
+          "heading": "Top-down, bottom-up Pleated blinds",
+          "text": "Pull up from the base of the blind or down from the top for flexible shading and privacy.",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/22532/thermashade-2-portrait.jpg?width=304&height=456&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        },
+        {
+          "isServiceMessaging": false,
+          "itemLink": "blinds-range/transition-blinds/?",
+          "heading": "Transition blinds",
+          "text": "A clever combination of two Pleated fabrics within one blind for maximum flexibility.",
+          "imgAlt": "",
+          "imgSrc": "https://static.hillarys.co.uk/asset/media/21820/transitioin-grenoble-mimosa-resized.jpg?width=304&height=456&mode=crop&cb=00010101000000&mcb=5f884e47a7424cfe86340315ccaafed0"
+        }
+      ]
+    },
+    "pageHeader": {
+      "imageAlt": "made to measure",
+      "image": "https://static.hillarys.staging-hblonline.co.uk/asset/media/25517/hillarys-venetian-lunarre2.jpg?width=1240&height=826&mode=crop",
+      "hasRounderImage": true,
+      "roundelImageAlt": "",
+      "roundelImage": "https://static.hillarys.staging-hblonline.co.uk/asset/media/25390/includes-overlay-500x500.png?width=120&height=120",
+      "heading": "Wooden blinds",
+      "copy": "Our made-to-measure Faux Wood and real Wooden blinds offer stylish and practical solutions for every room.",
+      "backgroundColor": "#000"
+    },
+    "saleMessaging": {
+      "image": "https://static.hillarys.co.uk/asset/media/27406/advisor-jaen-meyer-5.jpg?width=800&height=534",
+      "heading": "How the Hillarys service works",
+      "copy": "Find out how our in-home service works and book an appointment with one of our expert advisors in your area.",
+      "ctaLink": "how-it-works/",
+      "ctaText": "Discover more"
+    },
+    "serviceMessaging": {
+      "heading": "Awkward window shape or size?",
+      "body": "Don't worry, our advisors will help you find a solution for any space."
+    },
+    "singleVideo": {
+      "videoId": "rWsrOPckniU",
+      "placeholderSrc": "https://static.hillarys.co.uk/asset/media/24126/yt-thumb-ôçô-3.jpg?width=480",
+      "heading": "George Clarke’s Ways with Wide Windows",
+      "text": "TV presenter George Clarke explains how made-to-measure shutters can be customised to perfectly match the style of your windows"
+    },
+    "socialFeed": {
+      "title": "See our blinds in real homes",
+      "copy": "Looking for more inspiration? See how our customers are transforming their homes with stunning made-to-measure blinds. Search #MyHillarysHome on Instagram",
+      "instagramLink": "https://www.instagram.com/hillarysblinds/?hl=en",
+      "carouselImages": [
+        "https://static.hillarys.co.uk/asset/media/27017/user-suszi_saunders-date-posted-20219-channel-instagram.jpg?width=660&height=660&mode=crop&cb=20192210221240&mcb=5f884e47a7424cfe86340315ccaafed0",
+        "https://static.hillarys.co.uk/asset/media/27418/user-livinglifebeautifully_kent-date-posted-151119-channel-instagram.jpg?width=660&height=660&mode=crop&cb=20192711134826&mcb=5f884e47a7424cfe86340315ccaafed0",
+        "https://static.hillarys.co.uk/asset/media/27112/user-ourbristolabode-date-posted-0401119-channel-instagram.jpg?width=660&height=660&mode=crop&cb=20192310092218&mcb=5f884e47a7424cfe86340315ccaafed0"
+      ],
+      "ctaLink": "https://www.hillarys.co.uk/real-hillarys-homes/",
+      "ctaText": "See more posts"
+    },
+    "splitContent": {
+      "source": "420",
+      "section1": {
+        "altText": "Dining room with French doors dressed with velvet curtains and Roman blinds",
+        "src": "https://static.hillarys.co.uk/asset/media/27057/new-homepage.jpg?width=468&height=304&mode=crop",
+        "heading": "NEW Curtains &amp; Romans Range",
+        "body": "Discover our new range of gorgeous, on-trend fabrics, with a choice of soft velvets, textured weaves and statement embroidery designed to help you create spaces you'll love coming home to.",
+        "link1": "curtains/?",
+        "copy1": "Explore new Curtains",
+        "link2": "blinds-range/roman-blinds/?",
+        "copy2": "Explore new Roman blinds"
+      },
+      "section2": {
+        "altText": "Christmas fitting, order by 12th December for blinds and curtains fitted before christmas. Request an appointment",
+        "src": "https://static.hillarys.co.uk/asset/media/27143/xmas_fit_hurry.jpg?width=539&height=539&mode=crop",
+        "copy": "Christmas fitting, order by 12th December for blinds and curtains fitted before christmas. Request an appointment"
+      }
+    },
+    "subPage": {
+      "source": "420",
+      "heading": "Our made to measure shutters range",
+      "articleData": [
+        {
+          "link": "shutters-range/full-height-shutters/?",
+          "linkCopy": "Full height shutters",
+          "imageAlt": "Green custom colour shutters in a living room",
+          "imageSrc": "https://static.hillarys.co.uk/asset//media/21833/hil-shutters-livingroom-fullheight-custom-fb-inchyablue_0078_landscape-v2_guetzli.jpg?width=400&height=400&mode=Crop",
+          "heading": "Full height shutters",
+          "body": "For an authentic look choose traditional full-height plantation shutters."
+        },
+        {
+          "link": "shutters-range/tier-on-tier-shutters/?",
+          "linkCopy": "Tier-on-tier shutters",
+          "imageAlt": "White tier on tier shutters in living room window",
+          "imageSrc": "https://static.hillarys.co.uk/asset//media/21829/hil-shutters-living-windsor-tierontier-white0052landscape-v5.png?width=130&height=130&mode=Crop",
+          "heading": "Tier-on-tier shutters",
+          "body": "Top and bottom sections open independently for control over light and privacy."
+        },
+        {
+          "link": "shutters-range/cafe-style-shutters/?",
+          "linkCopy": "Café-style shutters",
+          "imageAlt": "Grey cafe-style shutters in kitchen",
+          "imageSrc": "https://static.hillarys.co.uk/asset//media/21831/hil-shutters-kitchen-cafe-blackwalnut-downtown-mink-curtains-modello-charcoal-cushion_0403-landscape-v1-cracked-1_guetzli.jpg?width=300&height=300&mode=Crop",
+          "heading": "Café-style shutters",
+          "body": "Go continental with café-style shutters in the bottom half of your window."
+        },
+        {
+          "link": "shutters-range/tracked-shutters/?",
+          "linkCopy": "Tracked shutters",
+          "imageAlt": "White tracked shutters in kitchen",
+          "imageSrc": "https://static.hillarys.co.uk/asset//media/21830/tracked-shutter-hero.jpeg?width=300&height=300&mode=Crop",
+          "heading": "Tracked shutters",
+          "body": "Transform a wide window into a stunning feature with gliding tracked shutters."
+        },
+        {
+          "link": "shutters-range/shaped-shutters/?",
+          "linkCopy": "Shaped shutters",
+          "imageAlt": "GBright blue shaped shutters in hall",
+          "imageSrc": "https://static.hillarys.co.uk/asset//media/21827/_hil-shutters-gardenroom-richmond-fullheight-shaped-custom-littlegreene-teawithflorence_0055_landscape-v2-1.png?width=300&height=300&mode=Crop",
+          "heading": "Shaped shutters",
+          "body": "We can make and fit plantation shutters to almost any size or shape of window."
+        },
+        {
+          "link": "shutters-range/solid-shutters/?",
+          "linkCopy": "Solid shutters",
+          "imageAlt": "Ombre natural wood shutters",
+          "imageSrc": "https://static.hillarys.co.uk/asset//media/21828/hil-shutters-dining-solid-tracked-ombre-wood_0570-landscape-v5_guetzli.jpg?width=300&height=300&mode=Crop",
+          "heading": "Solid shutters",
+          "body": "Ideal for classic period styling, solid shutters add a warm insulating layer."
+        }
+      ]
+    },
+    "textStrip": {
+      "heading": "Why you’ll love wooden window shutters",
+      "copyData": [
+        {
+          "copy": "<strong>Shutters with attitude<br></strong> Our new collection of made-to-measure window shutters is designed to enhance your home and reflect your personal style."
+        },
+        {
+          "copy": "We’ve introduced more colour options than ever before, with a wide range of natural wood stains, ranging from pale lime to black walnut, and even more of the soft neutral painted finishes we know you love. And for a truly bespoke look, our custom colour service will match your painted shutter blinds to virtually any shade."
+        },
+        {
+          "copy": "Timeless and versatile, shutters complement both traditional and contemporary styles. Classic plantation shutters have slats that can be adjusted to control light levels, while solid shutters make a real style statement."
+        },
+        {
+          "copy": "All of our shutters are available with a water-resistant finish, making them ideal for kitchens and bathrooms. For a unique look that's practical too, consider pairing shutters with a pair of our stylish&nbsp;<a href='https://www.hillarys.co.uk/curtains/?source=420'><strong>made to measure curtains</strong></a>."
+        },
+        {
+          "copy": "<strong>Our dedicated in-home service</strong>"
+        },
+        {
+          "copy": "Our expert advisors will come to you at home, where they’ll advise you on the best options for your home and you can browse our entire shutter collection at your leisure."
+        },
+        {
+          "copy": "See what colours and finishes work best with your décor and get an idea of how your new shutters will look thanks to our advisors’ specialist visualisation software."
+        },
+        {
+          "copy": "<strong>Made-to-measure for a perfect fit</strong>"
+        },
+        {
+          "copy": "Our shutters are crafted to fit even the most unusual shaped windows, including round and arched shapes, enhancing these unique features. Once they’re ready, your advisor will return to fit your shutters for you, so you don’t need to worry about a thing.&nbsp;"
+        }
+      ]
+    },
+    "trustpilotReviews": {
+      "source": "420",
+      "heading": "Sit back, relax. Let us do it all.",
+      "trustpilotWidget": "https://widget.trustpilot.com/trustboxes/539ad0ffdec7e10e686debd7/index.html?templateId=539ad0ffdec7e10e686debd7&businessunitId=4bdd9fdd0000640005063dbc#locale=en-GB&styleHeight=320px&styleWidth=100%25&theme=light&stars=4%2C5",
+      "copy": [
+        {
+          "subHeading": "All expertly measured",
+          "subHeadingCopy": "We do the measuring and advise you on the perfect solution for your window"
+        },
+        {
+          "subHeading": "All tailor-made for you",
+          "subHeadingCopy": "All our products are made to order for an exact fit"
+        },
+        {
+          "subHeading": "All fitted to perfection",
+          "subHeadingCopy": "We do the fitting, and all our products are fully guaranteed"
+        }
+      ]
+    },
+    "footer": {
+      "source": "420"
+    }
+  }
+}
